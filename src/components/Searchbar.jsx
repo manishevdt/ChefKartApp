@@ -19,7 +19,7 @@ export default function SearchBar({ value, onChange }) {
       />
 
   
-      <EvilIcons name="search" size={24} color="#555" style={styles.iconRight} />
+      <EvilIcons name="search"  style={styles.iconRight} />
     </View>
   );
 }
@@ -48,5 +48,8 @@ const styles = StyleSheet.create({
   },
   iconRight: {
     marginLeft: 8,
+    width:  12,
+    height: 12,
+    color: "#1C1C1C"
   },
 });
